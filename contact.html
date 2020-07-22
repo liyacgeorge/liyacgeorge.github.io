@@ -9,10 +9,10 @@ Author URL: http://w3layouts.com
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>My Website a Personal Portfolio Category Bootstrap Responsive Website Template | Contact :: W3layouts</title>
+    <title>Liya C George</title>
     <!-- web fonts -->
     <link href="https://fonts.google.com/specimen/Nunito?sidebar.open&selection.family=Nunito:wght@200" rel="stylesheet">
-    <link href="//fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
+    <link href="https://fonts.google.com/specimen/Satisfy?selection.family=Satisfy&sidebar.open" rel="stylesheet">
     <!-- //web fonts -->
     <!-- Template CSS -->
     <link rel="stylesheet" href="css/style-starter.css">
@@ -70,7 +70,7 @@ Author URL: http://w3layouts.com
                <!-- contact form -->
                <div class="contacts12-main col-lg-6 ">
                    
-                <form action="https://sendmail.w3layouts.com/submitForm" method="post" class="main-input">
+                <form action="mailto:liyageorge14@gmail.com"  method="post" class="main-input">
                     <div class="top-inputs d-grid">
                         <input type="text" placeholder="Name" name="w3lName" id="w3lName" required="">
                        
@@ -79,9 +79,19 @@ Author URL: http://w3layouts.com
                    
                     <textarea placeholder="Message" name="w3lMessage" id="w3lMessage" required=""></textarea>
                     <div class="text-right">
-                        <button type="submit" class="btn btn-theme2">Submit Now</button>
+                        <button type="submit" class="btn btn-theme2" onclick= "mailto:liyageorge14@gmail.com"
+                        + "?subject=" + encodeURI($('#subjet').val() + " from " + $('#w3lName').val()
+                        + "&body= Hi Liya \n" +  $('#w3lMessage').val() + " \n from\n" + $('#w3lName').val() );">Submit Now</button>
+
                     </div>
                 </form>
+                <!--<script>
+                  function myFunction() 
+                  {
+                    var set1 = document.getElementById("w3lname").value;
+                              }
+                  </script>-->
+                  
             </div>
             <!-- //contact form -->
                 <!-- contact address -->
@@ -101,7 +111,7 @@ Author URL: http://w3layouts.com
                                 <span class="fa fa-envelope" aria-hidden="true"></span>
                            </div> 
                            <div class="cont-add-rgt">
-                          <a href="mailto:info@example.com">
+                          <a href="mailto:liyageorge14@gmail.com">
                                 <p class="contact-text-sub">liyageorge14@gmail.com</p>
                             </a>
                         </div>
@@ -147,11 +157,10 @@ Author URL: http://w3layouts.com
         
         <div class="main-social-footer-29">
                     
-          <a href="#facebook" class="facebook"><span class="fa fa-facebook"></span></a>
-          <a href="#twitter" class="twitter"><span class="fa fa-twitter"></span></a>
-          <a href="#instagram" class="instagram"><span class="fa fa-instagram"></span></a>
-          <a href="#google-plus" class="google-plus"><span class="fa fa-google-plus"></span></a>
-          <a href="#linkedin" class="linkedin"><span class="fa fa-linkedin"></span></a>
+          <a href="https://www.facebook.com/liya.rinna" class="facebook"><span class="fa fa-facebook"></span></a>
+          <a href="https://twitter.com/LiyaGeorge5" class="twitter"><span class="fa fa-twitter"></span></a>
+          <a href="https://www.instagram.com/liya__george/" class="instagram"><span class="fa fa-instagram"></span></a>
+          <a href="https://www.linkedin.com/in/liya-c-george-b5a773187/" class="linkedin"><span class="fa fa-linkedin"></span></a>
       </div>
           <div class="bottom-copies text-center">
               <p class="copy-footer-29">© 2020 mywebsite.</p>
